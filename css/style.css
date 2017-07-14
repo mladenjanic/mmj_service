@@ -1,0 +1,64 @@
+.branding {
+    font-size: 17px;
+}
+
+.showcase {
+    background-image: url(../images/cover.jpg);
+    height: 600px;
+    background-position: center;
+    padding: 140px 100px;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.showcase hr {
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: orange;
+}
+
+.showcase p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.section {
+    padding: 40px 0;
+    
+}
+
+.section h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.section .fa {
+    font-size: 50px;
+}
+
+.section img {
+    width: 100%;
+}
+
+.acc:hover {
+    background-color: orange !important;
+}
+
+@media only screen and (max-width:600px){
+    body {
+        margin-top: 190px;
+    }
+    .showcase {
+        height: 400px;
+        padding: 40px 0;
+    }
+    .showcase p {
+        font-size: 14px;
+    }
+}
